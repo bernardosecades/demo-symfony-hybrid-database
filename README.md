@@ -1,3 +1,7 @@
+
+[![Build Status](https://travis-ci.org/bernardosecades/demo-symfony-hybrid-database.svg?branch=master)](https://travis-ci.org/bernardosecades/demo-symfony-hybrid-database)
+
+
 Demo App - Example hybrid database: RDBMS (MySQL) and NoSql (Redis)
 ===================================================================
 
