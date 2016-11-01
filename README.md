@@ -1,5 +1,5 @@
-
-[![Build Status](https://travis-ci.org/bernardosecades/demo-symfony-hybrid-database.svg?branch=master)](https://travis-ci.org/bernardosecades/demo-symfony-hybrid-database)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bernardosecades/demo-symfony-hybrid-database/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bernardosecades/demo-symfony-hybrid-database/?branch=master)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/9a6d3035-5c2d-4ad1-ae47-700057ddacd8/mini.png)](https://insight.sensiolabs.com/projects/9a6d3035-5c2d-4ad1-ae47-700057ddacd8)
 
 
 Demo App - Example hybrid database: RDBMS (MySQL) and NoSql (Redis)

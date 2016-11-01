@@ -15,8 +15,6 @@ parameters:
     mailer_user:       ~
     mailer_password:   ~
 
-    # A secret key that's used to generate certain security-related tokens
-    secret:            ThisTokenIsNotSoSecretChangeIt
     redis:
         host: 127.0.0.1
         port: 6379

@@ -64,7 +64,7 @@ class CommentController extends AbstractBaseController
      *
      * @return JsonResponse
      */
-    public function getTotalScore(Comment $comment = null)
+    public function getTotalScoreAction(Comment $comment = null)
     {
         if (null === $comment) {
             return $this->getResponse(new ErrorResponse(['Comment does not exist'], ErrorCode::RESOURCE_NOT_EXIST()), Response::HTTP_NOT_FOUND);
@@ -98,7 +98,7 @@ class CommentController extends AbstractBaseController
      *
      * @return JsonResponse
      */
-    public function createScore(Comment $comment = null, Request $request)
+    public function createScoreAction(Comment $comment = null, Request $request)
     {
         if (null === $comment) {
             return $this->getResponse(new ErrorResponse(['Comment does not exist'], ErrorCode::COMMENT_NOT_EXIST()), Response::HTTP_NOT_FOUND);

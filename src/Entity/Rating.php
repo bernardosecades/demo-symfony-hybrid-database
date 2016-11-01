@@ -26,7 +26,6 @@ namespace Demo\Entity;
  */
 
 use Demo\Entity\Vote;
-use InvalidArgumentException;
 
 /**
  * Class Rating
