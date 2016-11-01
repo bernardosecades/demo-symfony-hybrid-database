@@ -1,0 +1,24 @@
+Demo\Entity\Comment:
+    repositoryClass: Demo\Repository\Doctrine\ORM\DoctrineCommentRepository
+    type: entity
+    table: comment
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    manyToOne:
+        user:
+            targetEntity: Demo\Entity\User
+            inversedBy: user
+            joinColumn:
+                name: user_id
+                nullable: false
+                referencedColumnName: id
+    fields:
+        createdAt:
+            type: datetime
+        updatedAt:
+            type: datetime
+        text:
+            type: string
+            length: 300

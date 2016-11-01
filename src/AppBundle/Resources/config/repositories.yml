@@ -1,0 +1,16 @@
+services:
+    demo.repository.user:
+        class: Demo\Repository\Doctrine\ORM\DoctrineUserRepository
+        factory: ["@doctrine", getRepository]
+        arguments: [ Demo\Entity\User ]
+
+    demo.repository.comment:
+        class: Demo\Repository\Doctrine\ORM\DoctrineCommentRepository
+        factory: ["@doctrine", getRepository]
+        arguments: [ Demo\Entity\Comment ]
+
+    demo.repository.rating:
+        class: Demo\Repository\Redis\RedisRatingRepository
+        arguments:
+            - "@demo.redis"
+            - %redis%

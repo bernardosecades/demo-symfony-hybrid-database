@@ -1,0 +1,9 @@
+Demo\Entity\Rating:
+    exclusion_policy: ALL
+    read_only: true
+    access_type: public_method
+    properties:
+        comment:
+            type: Demo\Entity\Comment
+        votes:
+            type: array

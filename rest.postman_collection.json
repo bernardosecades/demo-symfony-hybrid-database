@@ -1,0 +1,55 @@
+{
+	"id": "85867454-4e2e-3ce9-fc68-35b63aaa8a1c",
+	"name": "demo",
+	"description": "",
+	"order": [
+		"18324c8b-045b-8428-2dd1-ef0e85dacd55",
+		"4e589a65-40b0-1354-ba70-de3b46b314b2"
+	],
+	"folders": [],
+	"timestamp": 1477920371856,
+	"owner": "648985",
+	"public": false,
+	"requests": [
+		{
+			"id": "18324c8b-045b-8428-2dd1-ef0e85dacd55",
+			"headers": "Content-Type: application/json\n",
+			"url": "http://demo.local/app_dev.php/comment/1/rating",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1478034602006,
+			"name": "Create score",
+			"description": "",
+			"collectionId": "85867454-4e2e-3ce9-fc68-35b63aaa8a1c",
+			"responses": [],
+			"rawModeData": "{\"userId\": 2, \"commentId\": 1, \"score\": 1}"
+		},
+		{
+			"id": "4e589a65-40b0-1354-ba70-de3b46b314b2",
+			"headers": "",
+			"url": "http://demo.local/app_dev.php/comment/1/rating",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1478034615702,
+			"name": "Get Score",
+			"description": "",
+			"collectionId": "85867454-4e2e-3ce9-fc68-35b63aaa8a1c",
+			"responses": [],
+			"rawModeData": "{\"userId\": 1, \"commentId\": 1, \"score\": 1}"
+		}
+	]
+}

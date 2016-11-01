@@ -1,0 +1,18 @@
+Demo\Entity\User:
+    repositoryClass: Demo\Repository\Doctrine\ORM\DoctrineUserRepository
+    type: entity
+    table: user
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        name:
+            type: string
+            length: 80
+        createdAt:
+            type: datetime
+            nullable: false
+        updatedAt:
+            type: datetime
+            nullable: false

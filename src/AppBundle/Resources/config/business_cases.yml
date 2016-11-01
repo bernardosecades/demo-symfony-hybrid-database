@@ -1,0 +1,5 @@
+services:
+    demo.rating_businesscase:
+        class: Demo\BusinessCase\RatingBusinessCase
+        arguments:
+            - "@demo.repository.rating"
