@@ -35,8 +35,7 @@ It will return,
 4) "4:-1"
 ```
 
-For sure you can resolve score comments using different structure and strategy, this is only a demo how use hybrid
-database in symnfony.
+For sure you can resolve score comments using different structure and strategy, this is only an example.
 
 
 Architecture
@@ -137,7 +136,7 @@ Depends of the project can be tested controllers using functional, commands or r
 but we need evaluate these posibilities in each case, and you must think about costs of integration and functional test (E2E),
 usually they have high maintenance and if you are using CI environment operations people will have extra work :-)
 
-In this demo application we did integration test with class RedisRatingRepository because is a repository to handle data with specific
+In this demo application I did integration test with class RedisRatingRepository because is a repository to handle data with specific
 structure of data in redis. Repositories from Doctrine is not necessary to test them.
 
 # Redis benchmark
